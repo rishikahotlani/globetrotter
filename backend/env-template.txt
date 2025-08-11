@@ -1,0 +1,28 @@
+# Copy this content to a new file named .env in the backend directory
+
+PORT=4000
+MONGODB_URI=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/travel_globetrotter?retryWrites=true&w=majority
+JWT_SECRET=your-very-strong-secret-key-here
+CORS_ORIGIN=http://localhost:3000
+NODE_ENV=development
+
+# Instructions:
+# 1. Replace 'your_username' with your MongoDB Atlas username
+# 2. Replace 'your_password' with your MongoDB Atlas password  
+# 3. Replace 'your_cluster' with your actual cluster name
+# 4. Replace 'your-very-strong-secret-key-here' with a strong random string (at least 32 characters)
+# 5. Save this as .env (not .env.txt) in the backend directory
+
+# To get your MongoDB Atlas connection string:
+# 1. Go to https://cloud.mongodb.com/
+# 2. Create a free account or sign in
+# 3. Create a new cluster (free tier available)
+# 4. Click "Connect" on your cluster
+# 5. Choose "Connect your application"
+# 6. Copy the connection string
+# 7. Replace <username>, <password>, and <dbname> with your values
+# 8. Add the connection string to your .env file
+
+# For JWT_SECRET, you can generate a strong key using:
+# - Online generators: https://generate-secret.vercel.app/32
+# - Or use a long random string of letters, numbers, and symbols
