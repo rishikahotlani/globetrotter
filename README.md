@@ -167,53 +167,6 @@ npm run test:models    # Test MongoDB connection
 npm run test:api       # Test all API endpoints
 ```
 
-### Frontend Testing
-Visit `http://localhost:3000` to test the complete application
-
-## 🔒 Environment Variables
-
-### Backend (.env)
-```env
-PORT=4000
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/travel_globetrotter?retryWrites=true&w=majority
-NODE_ENV=development
-```
-
-### Frontend (.env.local)
-```env
-NEXT_PUBLIC_BACKEND_URL=http://localhost:4000
-```
-
-## 🚀 Deployment
-
-### Frontend
-- Deploy to Vercel, Netlify, or any static hosting
-- Update `NEXT_PUBLIC_BACKEND_URL` to production backend
-
-### Backend
-- Deploy to Railway, Heroku, or any Node.js hosting
-- Update MongoDB Atlas network access for production
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🆘 Support
-
-If you encounter issues:
-1. Check the console for error messages
-2. Verify environment variables are set correctly
-3. Ensure both servers are running
-4. Check MongoDB Atlas connection and permissions
-5. Review the setup documentation
 
 ## 🎯 Roadmap
 
