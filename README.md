@@ -16,38 +16,7 @@ A full-stack travel planning application built with Next.js, Node.js, Express, a
 - **Itinerary Builder**: Plan day-by-day activities and city visits
 - **Real-time Data**: Full MongoDB Atlas integration with persistent storage
 
-## 🚀 Quick Start
 
-### Option 1: Automated Setup (Recommended)
-
-**Windows:**
-```bash
-quick-start.bat
-```
-
-**Mac/Linux:**
-```bash
-chmod +x quick-start.sh
-./quick-start.sh
-```
-
-### Option 2: Manual Setup
-
-1. **Set up MongoDB Atlas** (see `setup-complete-app.md`)
-2. **Create backend `.env` file** (see `backend/env-template.txt`)
-3. **Install dependencies:**
-   ```bash
-   cd backend && npm install
-   cd ../frontend && npm install
-   ```
-4. **Start the application:**
-   ```bash
-   # Terminal 1 - Backend
-   cd backend && npm run dev
-   
-   # Terminal 2 - Frontend  
-   cd frontend && npm run dev
-   ```
 
 ## 📁 Project Structure
 
@@ -138,50 +107,6 @@ travel_globetrotter/
 - Cost, duration, and difficulty
 - Location and booking information
 
-## 🌐 API Endpoints
 
-- `GET /api/health` - API status
-- `GET /api/cities` - List cities with filtering
-- `GET /api/activities` - List activities with filtering
-- `GET /api/trips` - List user trips
-- `POST /api/trips` - Create new trip
-- `POST /api/users/register` - User registration
-- `POST /api/users/login` - User authentication
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
-2. **Set up MongoDB Atlas** (free tier available)
-3. **Configure environment variables**
-4. **Install dependencies**
-5. **Seed the database**
-6. **Start both servers**
-
-## 📚 Documentation
-
-- **`setup-complete-app.md`** - Comprehensive setup guide
-- **`backend/README.md`** - Backend-specific documentation
-- **`backend/setup-mongodb.md`** - MongoDB Atlas setup guide
-
-## 🧪 Testing
-
-### Backend Testing
-```bash
-cd backend
-npm run test:models    # Test MongoDB connection
-npm run test:api       # Test all API endpoints
-```
-
-
-## 🎯 Roadmap
-
-- [ ] User authentication with JWT
-- [ ] Trip sharing and collaboration
-- [ ] Reviews and ratings system
-- [ ] Advanced search and filtering
-- [ ] Mobile app development
-- [ ] Social features and recommendations
-
----
 
 **Happy Traveling! ✈️🌍**
